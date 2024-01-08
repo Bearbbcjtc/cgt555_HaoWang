@@ -1408,3 +1408,16 @@ LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
 [2024.01.08-23.36.19:338][625]LogAssetRegistry: AssetRegistryGather time 20.1958s: AssetDataDiscovery 0.0278s, AssetDataGather 20.1022s, StoreResults 0.0658s.
 [2024.01.08-23.36.19:358][625]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
 [2024.01.08-23.36.19:451][626]LogAssetRegistry: Display: Asset registry cache written as 16.7 MiB to ../../../../../../temp/cgt555_HaoWang/Assignment6/Intermediate/CachedAssetRegistry_*.bin
+[2024.01.08-23.37.54:798][912]LogDerivedDataCache: C:/Users/wang5329/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.067 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 989 files in 1575 folders with total size 18 MiB.
+[2024.01.08-23.38.12:230][ 90]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.08-23.38.14:520][276]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.01.08-23.38.15:479][359]LogMaterial: Display: Material /Game/StarterContent/Props/Materials/M_Chair.M_Chair needed to have new flag set bUsedWithNanite !
+[2024.01.08-23.38.15:567][359]MapCheck: Warning: M_Chair Material /Game/StarterContent/Props/Materials/M_Chair.M_Chair was missing the usage flag bUsedWithNanite. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2024.01.08-23.38.17:124][445]LogSlate: Window 'Message Log' being destroyed
+[2024.01.08-23.38.17:132][445]LogSlate: Window 'Message Log' being destroyed
+[2024.01.08-23.38.18:111][505]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.08-23.38.18:173][505]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/3M/4ATOKH0ZGPCVBS85MPKAXK
+[2024.01.08-23.38.18:181][505]LogSavePackage: Moving '../../../../../../temp/cgt555_HaoWang/Assignment6/Saved/4ATOKH0ZGPCVBS85MPKAXK5998006E427942B56E13B28D9744A2B7.tmp' to '../../../../../../temp/cgt555_HaoWang/Assignment6/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/3M/4ATOKH0ZGPCVBS85MPKAXK.uasset'
+[2024.01.08-23.38.18:198][505]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 727 ms)
+[2024.01.08-23.38.18:200][505]AssetCheck: New page: Asset Save: StaticMeshActor_30
+[2024.01.08-23.38.18:200][505]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_30
