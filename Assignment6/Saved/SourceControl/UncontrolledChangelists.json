@@ -6,7 +6,14 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/temp/cgt555_HaoWang/Assignment6/Content/StarterContent/Architecture/Floor_400x400.uasset",
-				"C:/temp/cgt555_HaoWang/Assignment6/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/3M/4ATOKH0ZGPCVBS85MPKAXK.uasset"
+				"C:/temp/cgt555_HaoWang/Assignment6/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/3M/4ATOKH0ZGPCVBS85MPKAXK.uasset",
+				"C:/temp/cgt555_HaoWang/Assignment6/Content/Materials/NewMaterial.uasset",
+				"C:/temp/cgt555_HaoWang/Assignment6/Content/Materials/NewMaterial_Inst.uasset",
+				"C:/temp/cgt555_HaoWang/Assignment6/Content/Materials/M_JLH.uasset",
+				"C:/temp/cgt555_HaoWang/Assignment6/Content/Materials/M_JLZ.uasset",
+				"C:/temp/cgt555_HaoWang/Assignment6/Content/Materials/M_JLB.uasset",
+				"C:/temp/cgt555_HaoWang/Assignment6/Content/Blueprints/Target/E_TargetBehavior.uasset",
+				"C:/temp/cgt555_HaoWang/Assignment6/Content/Blueprints/Target/BP_Target.uasset"
 			]
 		}
 	]

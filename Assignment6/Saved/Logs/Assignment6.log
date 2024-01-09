@@ -1421,3 +1421,583 @@ LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
 [2024.01.08-23.38.18:198][505]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 727 ms)
 [2024.01.08-23.38.18:200][505]AssetCheck: New page: Asset Save: StaticMeshActor_30
 [2024.01.08-23.38.18:200][505]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_30
+[2024.01.08-23.39.23:739][987]LogSlate: Window 'Content Browser' being destroyed
+[2024.01.08-23.39.23:747][987]LogSlate: Window 'Content Browser' being destroyed
+[2024.01.08-23.44.31:582][426]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2024.01.08-23.44.31:845][426]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=9724
+[2024.01.08-23.44.32:182][427]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{b65e91e9-ca2a-40f5-813b-c09903e5e83c}, Name=Speakers (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=258.51
+[2024.01.08-23.44.32:182][427]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.01.08-23.44.32:184][427]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.01.08-23.49.06:034][843]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.08-23.49.06:105][844]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.08-23.49.06:136][845]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.08-23.49.06:166][846]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.08-23.53.34:389][396]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.01.08-23.53.34:409][396]LogContentBrowser: Creating deferred item: NewFolder
+[2024.01.08-23.53.34:418][397]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.01.08-23.53.38:736][738]LogContentBrowser: Attempting asset rename: NewFolder -> Blueprints
+[2024.01.08-23.53.38:736][738]LogContentBrowser: End creating deferred item NewFolder
+[2024.01.08-23.53.40:859][910]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.01.08-23.53.40:881][910]LogContentBrowser: Creating deferred item: NewFolder
+[2024.01.08-23.53.40:893][911]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.01.08-23.53.43:300][100]LogContentBrowser: Attempting asset rename: NewFolder -> Materials
+[2024.01.08-23.53.43:300][100]LogContentBrowser: End creating deferred item NewFolder
+[2024.01.08-23.53.48:577][554]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.01.08-23.53.48:586][554]LogContentBrowser: Creating deferred item: NewFolder
+[2024.01.08-23.53.48:668][556]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.01.08-23.53.50:634][713]LogContentBrowser: Attempting asset rename: NewFolder -> Target
+[2024.01.08-23.53.50:634][713]LogContentBrowser: End creating deferred item NewFolder
+[2024.01.08-23.54.15:618][457]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.01.08-23.54.16:428][507]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.08-23.54.16:442][507]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.08-23.54.16:442][507]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.01.08-23.54.16:445][507]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 3 ms
+[2024.01.08-23.54.16:446][507]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.08-23.54.16:448][507]PIE: New page: PIE session: FirstPersonMap (Jan 8, 2024, 1:54:16 PM)
+[2024.01.08-23.54.16:454][507]LogOnline: OSS: Created online subsystem instance for: NULL
+[2024.01.08-23.54.16:454][507]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2024.01.08-23.54.16:455][507]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.01.08-23.54.16:462][507]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007029s)
+[2024.01.08-23.54.16:462][507]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.007093s)
+[2024.01.08-23.54.16:470][507]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.01.08-23.54.16:472][507]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.08-23.54.16:472][507]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.08-23.54.16:473][507]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.01.08-23.54.16:473][507]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.08-23.54.16:473][507]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.08-23.54.16:473][507]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.08-23.54.16:473][507]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.08-23.54.16:475][507]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.01.08-23.54.16:475][507]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 290 ms)
+[2024.01.08-23.54.16:475][507]LogPlayLevel: PIE: World Init took: (0.002956s)
+[2024.01.08-23.54.16:475][507]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2024.01.08-23.54.16:475][507]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.08-23.54.16:475][507]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.08-23.54.16:475][507]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.08-23.54.16:475][507]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.08-23.54.16:475][507]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.08-23.54.16:475][507]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.08-23.54.16:475][507]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.08-23.54.16:475][507]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.08-23.54.16:476][507]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.08-23.54.16:476][507]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.08-23.54.16:476][507]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.08-23.54.16:478][507]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.08-23.54.16:496][507]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.01.08-23.54.16:496][507]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.08-23.54.16:496][507]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.08-23.54.16:496][507]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.08-23.54.16:497][507]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2024.01.08-23.54.16:497][507]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2024.01.08-23.54.16:499][507]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2024.01.08-23.54.16:499][507]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2024.01.08-23.54.16:499][507]LogInit: FAudioDevice initialized with ID 2.
+[2024.01.08-23.54.16:499][507]LogAudio: Display: Audio Device (ID: 2) registered with world 'FirstPersonMap'.
+[2024.01.08-23.54.16:499][507]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2024.01.08-23.54.16:503][507]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.01.08-23.54.16:506][507]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.01.08-18.54.16
+[2024.01.08-23.54.16:506][507]LogWorld: Bringing up level for play took: 0.002734
+[2024.01.08-23.54.16:509][507]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2024.01.08-23.54.16:525][507]PIE: Server logged in
+[2024.01.08-23.54.16:527][507]PIE: Play in editor total start time 0.085 seconds.
+[2024.01.08-23.54.22:849][ 31]Set new viewmode: Wireframe
+[2024.01.08-23.54.23:567][111]Set new viewmode: Wireframe
+[2024.01.08-23.54.24:350][205]Set new viewmode: Wireframe
+[2024.01.08-23.54.24:992][282]Set new viewmode: Unlit
+[2024.01.08-23.54.25:475][340]Set new viewmode: Lit
+[2024.01.08-23.54.31:585][784]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.08-23.54.31:585][784]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.01.08-23.54.31:585][784]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.08-23.54.31:586][784]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.08-23.54.31:586][784]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.01.08-23.54.31:605][784]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.08-23.54.31:608][784]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.08-23.54.31:613][784]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.08-23.54.31:613][784]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2024.01.08-23.54.31:613][784]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.01.08-23.54.31:615][784]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.01.08-23.54.31:623][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2024.01.08-23.54.31:699][785]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2024.01.08-23.54.34:880][ 36]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.08-23.54.34:893][ 36]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.08-23.54.34:894][ 36]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.01.08-23.54.34:896][ 36]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 2 ms (total: 5 ms)
+[2024.01.08-23.54.34:896][ 36]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.08-23.54.34:896][ 36]PIE: New page: PIE session: FirstPersonMap (Jan 8, 2024, 1:54:34 PM)
+[2024.01.08-23.54.34:944][ 36]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.01.08-23.54.34:951][ 36]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006645s)
+[2024.01.08-23.54.34:951][ 36]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.006718s)
+[2024.01.08-23.54.34:955][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.01.08-23.54.34:956][ 36]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.08-23.54.34:956][ 36]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.08-23.54.34:957][ 36]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.01.08-23.54.34:957][ 36]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.08-23.54.34:957][ 36]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.08-23.54.34:957][ 36]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.08-23.54.34:957][ 36]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.08-23.54.34:959][ 36]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.01.08-23.54.34:959][ 36]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 292 ms)
+[2024.01.08-23.54.34:959][ 36]LogPlayLevel: PIE: World Init took: (0.003123s)
+[2024.01.08-23.54.34:959][ 36]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.01.08-23.54.34:959][ 36]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.08-23.54.34:959][ 36]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.08-23.54.34:959][ 36]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.08-23.54.34:959][ 36]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.08-23.54.34:959][ 36]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.08-23.54.34:959][ 36]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.08-23.54.34:959][ 36]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.08-23.54.34:959][ 36]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.08-23.54.34:960][ 36]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.08-23.54.34:960][ 36]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.08-23.54.34:960][ 36]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.08-23.54.34:963][ 36]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.08-23.54.34:985][ 36]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.01.08-23.54.34:985][ 36]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.08-23.54.34:985][ 36]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.08-23.54.34:985][ 36]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.08-23.54.34:986][ 36]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.01.08-23.54.34:986][ 36]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.01.08-23.54.34:988][ 36]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.01.08-23.54.34:988][ 36]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.01.08-23.54.34:988][ 36]LogInit: FAudioDevice initialized with ID 3.
+[2024.01.08-23.54.34:988][ 36]LogAudio: Display: Audio Device (ID: 3) registered with world 'FirstPersonMap'.
+[2024.01.08-23.54.34:988][ 36]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.01.08-23.54.34:991][ 36]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.01.08-23.54.34:994][ 36]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.01.08-18.54.34
+[2024.01.08-23.54.34:995][ 36]LogWorld: Bringing up level for play took: 0.002945
+[2024.01.08-23.54.34:997][ 36]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2024.01.08-23.54.35:000][ 36]PIE: Server logged in
+[2024.01.08-23.54.35:001][ 36]PIE: Play in editor total start time 0.107 seconds.
+[2024.01.08-23.54.45:295][905]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.08-23.54.45:295][905]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.01.08-23.54.45:295][905]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.08-23.54.45:296][905]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.08-23.54.45:296][905]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.01.08-23.54.45:301][905]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.08-23.54.45:304][905]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.08-23.54.45:309][905]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.08-23.54.45:309][905]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.01.08-23.54.45:309][905]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.01.08-23.54.45:311][905]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.01.08-23.54.45:318][905]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.01.08-23.54.45:387][906]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2024.01.08-23.54.50:071][173]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.01.08-23.54.50:090][173]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.01.08-23.54.50:102][173]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.01.08-23.54.50:124][175]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.01.08-23.54.54:434][521]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Target
+[2024.01.08-23.54.54:442][521]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.01.08-23.54.54:566][532]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Target/BP_Target.BP_Target
+[2024.01.08-23.54.54:568][532]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.08-23.54.54:568][532]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.08-23.54.54:590][532]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2024.01.08-23.54.55:491][532]LogViewport: Scene viewport resized to 985x696, mode Windowed.
+[2024.01.08-23.54.57:030][619]LogViewport: Scene viewport resized to 1522x1183, mode Windowed.
+[2024.01.09-00.00.55:054][150]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2024.01.09-00.00.55:054][150]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2024.01.09-00.01.03:032][999]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.09-00.01.05:157][112]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.01.09-00.03.24:453][380]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/FPWeapon/Materials/BaseMaterial.BaseMaterial
+[2024.01.09-00.03.24:477][380]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.09-00.03.24:477][380]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.09-00.03.24:749][380]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.09-00.03.24:749][380]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.09-00.03.24:749][380]MaterialEditorStats: Shader Count: 0
+[2024.01.09-00.03.24:762][380]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.01.09-00.03.24:768][380]LogViewport: Scene viewport resized to 502x606, mode Windowed.
+[2024.01.09-00.03.25:262][402]LogShaderCompilers: Display: ================================================
+[2024.01.09-00.03.25:262][402]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.09-00.03.25:262][402]LogShaderCompilers: Display: Total job queries 45, among them cache hits 0 (0.00%)
+[2024.01.09-00.03.25:262][402]LogShaderCompilers: Display: Tracking 42 distinct input hashes that result in 38 distinct outputs (90.48%)
+[2024.01.09-00.03.25:262][402]LogShaderCompilers: Display: RAM used: 1.20 MiB of 3.20 GiB budget. Usage: 0.04%
+[2024.01.09-00.03.25:262][402]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.09-00.03.25:262][402]LogShaderCompilers: Display: Shaders Compiled: 42
+[2024.01.09-00.03.25:262][402]LogShaderCompilers: Display: Jobs assigned 45, completed 42 (93.33%)
+[2024.01.09-00.03.25:262][402]LogShaderCompilers: Display: Average time worker was idle: 1506.61 s
+[2024.01.09-00.03.25:262][402]LogShaderCompilers: Display: Time job spent in pending queue: average 0.02 s, longest 0.08 s
+[2024.01.09-00.03.25:262][402]LogShaderCompilers: Display: Job execution time: average 2.46 s, max 3.43 s
+[2024.01.09-00.03.25:262][402]LogShaderCompilers: Display: Job life time (pending + execution): average 2.47 s, max 3.44
+[2024.01.09-00.03.25:262][402]LogShaderCompilers: Display: Shader code size: average 48.885 KiB, min 29.824 KiB, max 72.324 KiB
+[2024.01.09-00.03.25:262][402]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.89 s
+[2024.01.09-00.03.25:262][402]LogShaderCompilers: Display: Jobs were issued in 18 batches (only local compilation was used), average 2.50 jobs/batch
+[2024.01.09-00.03.25:262][402]LogShaderCompilers: Display: Average processing rate: 10.79 jobs/sec
+[2024.01.09-00.03.25:262][402]LogShaderCompilers: Display: Total thread time: 25.478 s
+[2024.01.09-00.03.25:262][402]LogShaderCompilers: Display: Total thread preprocess time: 1.434 s
+[2024.01.09-00.03.25:262][402]LogShaderCompilers: Display: Percentage time preprocessing: 5.63%
+[2024.01.09-00.03.25:262][402]LogShaderCompilers: Display: Effective parallelization: 6.54 (times faster than compiling all shaders on one thread). Compare with number of workers: 14
+[2024.01.09-00.03.25:262][402]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.01.09-00.03.25:262][402]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    2 times, average 0.83 sec, max 1.30 sec, min 0.35 sec)
+[2024.01.09-00.03.25:262][402]LogShaderCompilers: Display:                                           FLumenCardPS<true> (compiled    1 times, average 0.82 sec, max 0.82 sec, min 0.82 sec)
+[2024.01.09-00.03.25:262][402]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    2 times, average 0.81 sec, max 1.30 sec, min 0.32 sec)
+[2024.01.09-00.03.25:262][402]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    2 times, average 0.81 sec, max 1.30 sec, min 0.31 sec)
+[2024.01.09-00.03.25:262][402]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 0.80 sec, max 1.23 sec, min 0.37 sec)
+[2024.01.09-00.03.25:262][402]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.01.09-00.03.25:262][402]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight - 6.49% of total time (compiled    2 times, average 0.83 sec, max 1.30 sec, min 0.35 sec)
+[2024.01.09-00.03.25:262][402]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight - 6.39% of total time (compiled    2 times, average 0.81 sec, max 1.30 sec, min 0.32 sec)
+[2024.01.09-00.03.25:262][402]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ - 6.32% of total time (compiled    2 times, average 0.81 sec, max 1.30 sec, min 0.31 sec)
+[2024.01.09-00.03.25:262][402]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 6.31% of total time (compiled    2 times, average 0.80 sec, max 1.23 sec, min 0.37 sec)
+[2024.01.09-00.03.25:262][402]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 6.20% of total time (compiled    2 times, average 0.79 sec, max 1.15 sec, min 0.43 sec)
+[2024.01.09-00.03.25:262][402]LogShaderCompilers: Display: ================================================
+[2024.01.09-00.03.25:586][420]MaterialEditorStats: Base pass shader: 196 instructions
+[2024.01.09-00.03.25:586][420]MaterialEditorStats: Texture samplers: 2/16
+[2024.01.09-00.03.25:586][420]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.09-00.03.25:586][420]MaterialEditorStats: Shader Count: 3
+[2024.01.09-00.03.25:981][442]MaterialEditorStats: Base pass shader: 196 instructions
+[2024.01.09-00.03.25:981][442]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.01.09-00.03.25:981][442]MaterialEditorStats: Texture samplers: 2/16
+[2024.01.09-00.03.25:981][442]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.09-00.03.25:981][442]MaterialEditorStats: Shader Count: 4
+[2024.01.09-00.03.32:157][802]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2024.01.09-00.03.32:157][802]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.09-00.04.41:300][851]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.01.09-00.04.41:302][851]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.029
+[2024.01.09-00.04.41:303][851]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Target/BP_Target] ([2] browsable assets)...
+[2024.01.09-00.04.41:324][851]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Target/BP_Target.BP_Target]
+[2024.01.09-00.04.41:324][851]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Target/BP_Target]
+[2024.01.09-00.04.41:333][851]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Target/BP_Target_Auto1
+[2024.01.09-00.04.41:333][851]LogSavePackage: Moving '../../../../../../temp/cgt555_HaoWang/Assignment6/Saved/BP_Target_Auto1ED4D8EA941BF80F5C9A7978FE0F329F6.tmp' to '../../../../../../temp/cgt555_HaoWang/Assignment6/Saved/Autosaves/Game/Blueprints/Target/BP_Target_Auto1.uasset'
+[2024.01.09-00.04.41:337][851]LogFileHelpers: Auto-saving content packages took 0.035
+[2024.01.09-00.04.45:297][ 74]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/FPWeapon/Materials/BaseMaterial.BaseMaterial
+[2024.01.09-00.04.45:305][ 74]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.09-00.04.45:305][ 74]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.09-00.04.45:479][ 74]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.09-00.04.45:479][ 74]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.09-00.04.45:479][ 74]MaterialEditorStats: Shader Count: 0
+[2024.01.09-00.04.45:488][ 74]LogViewport: Scene viewport resized to 502x606, mode Windowed.
+[2024.01.09-00.04.45:575][ 76]MaterialEditorStats: Base pass shader: 196 instructions
+[2024.01.09-00.04.45:575][ 76]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.01.09-00.04.45:575][ 76]MaterialEditorStats: Texture samplers: 2/16
+[2024.01.09-00.04.45:575][ 76]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.09-00.04.45:575][ 76]MaterialEditorStats: Shader Count: 4
+[2024.01.09-00.05.04:612][178]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2024.01.09-00.05.04:612][178]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.09-00.05.14:357][ 61]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2024.01.09-00.05.14:366][ 61]LogContentBrowser: Creating deferred item: NewMaterial
+[2024.01.09-00.05.14:467][ 63]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2024.01.09-00.05.15:049][106]LogContentBrowser: Attempting asset rename: NewMaterial -> NewMaterial
+[2024.01.09-00.05.15:052][106]LogContentBrowser: End creating deferred item NewMaterial
+[2024.01.09-00.05.15:490][131]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/NewMaterial.NewMaterial
+[2024.01.09-00.05.15:494][131]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.09-00.05.15:494][131]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.09-00.05.15:742][131]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.09-00.05.15:743][131]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.09-00.05.15:743][131]MaterialEditorStats: Shader Count: 0
+[2024.01.09-00.05.15:751][131]LogViewport: Scene viewport resized to 502x606, mode Windowed.
+[2024.01.09-00.05.16:587][170]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.01.09-00.05.16:587][170]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.01.09-00.05.16:587][170]MaterialEditorStats: Texture samplers: 2/16
+[2024.01.09-00.05.16:587][170]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.09-00.05.16:587][170]MaterialEditorStats: Shader Count: 4
+[2024.01.09-00.05.20:216][386]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.09-00.05.20:216][386]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.09-00.05.20:216][386]MaterialEditorStats: Shader Count: 0
+[2024.01.09-00.05.20:301][388]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.01.09-00.05.20:301][388]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.01.09-00.05.20:301][388]MaterialEditorStats: Texture samplers: 2/16
+[2024.01.09-00.05.20:301][388]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.09-00.05.20:301][388]MaterialEditorStats: Shader Count: 4
+[2024.01.09-00.05.22:947][558]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.09-00.05.22:947][558]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.09-00.05.22:947][558]MaterialEditorStats: Shader Count: 0
+[2024.01.09-00.05.23:012][560]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.01.09-00.05.23:012][560]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.01.09-00.05.23:012][560]MaterialEditorStats: Texture samplers: 2/16
+[2024.01.09-00.05.23:012][560]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.09-00.05.23:012][560]MaterialEditorStats: Shader Count: 4
+[2024.01.09-00.05.27:161][807]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.09-00.05.27:161][807]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.09-00.05.27:161][807]MaterialEditorStats: Shader Count: 0
+[2024.01.09-00.05.27:272][810]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.01.09-00.05.27:272][810]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.01.09-00.05.27:272][810]MaterialEditorStats: Texture samplers: 2/16
+[2024.01.09-00.05.27:272][810]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.09-00.05.27:272][810]MaterialEditorStats: Shader Count: 4
+[2024.01.09-00.05.28:099][862]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.09-00.05.28:099][862]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.09-00.05.28:099][862]MaterialEditorStats: Shader Count: 0
+[2024.01.09-00.05.28:184][864]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.01.09-00.05.28:184][864]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.01.09-00.05.28:184][864]MaterialEditorStats: Texture samplers: 2/16
+[2024.01.09-00.05.28:184][864]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.09-00.05.28:184][864]MaterialEditorStats: Shader Count: 2
+[2024.01.09-00.05.29:498][943]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.09-00.05.29:498][943]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.09-00.05.29:498][943]MaterialEditorStats: Shader Count: 0
+[2024.01.09-00.05.29:592][945]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.01.09-00.05.29:592][945]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.01.09-00.05.29:592][945]MaterialEditorStats: Texture samplers: 2/16
+[2024.01.09-00.05.29:592][945]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.09-00.05.29:592][945]MaterialEditorStats: Shader Count: 4
+[2024.01.09-00.05.31:913][ 90]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.09-00.05.31:913][ 90]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.09-00.05.31:913][ 90]MaterialEditorStats: Shader Count: 0
+[2024.01.09-00.05.31:973][ 92]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.01.09-00.05.31:973][ 92]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.01.09-00.05.31:973][ 92]MaterialEditorStats: Texture samplers: 2/16
+[2024.01.09-00.05.31:973][ 92]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.09-00.05.31:973][ 92]MaterialEditorStats: Shader Count: 4
+[2024.01.09-00.05.33:902][215]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.09-00.05.33:903][215]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.09-00.05.33:903][215]MaterialEditorStats: Shader Count: 0
+[2024.01.09-00.05.33:957][217]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.01.09-00.05.33:958][217]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.01.09-00.05.33:958][217]MaterialEditorStats: Texture samplers: 2/16
+[2024.01.09-00.05.33:958][217]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.09-00.05.33:958][217]MaterialEditorStats: Shader Count: 4
+[2024.01.09-00.05.34:497][248]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.09-00.05.34:497][248]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.09-00.05.34:497][248]MaterialEditorStats: Shader Count: 0
+[2024.01.09-00.05.34:559][250]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.01.09-00.05.34:559][250]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.01.09-00.05.34:559][250]MaterialEditorStats: Texture samplers: 2/16
+[2024.01.09-00.05.34:559][250]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.09-00.05.34:559][250]MaterialEditorStats: Shader Count: 4
+[2024.01.09-00.05.38:210][506]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.09-00.05.38:210][506]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.09-00.05.38:210][506]MaterialEditorStats: Shader Count: 0
+[2024.01.09-00.05.38:355][509]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.01.09-00.05.38:355][509]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.01.09-00.05.38:355][509]MaterialEditorStats: Texture samplers: 2/16
+[2024.01.09-00.05.38:355][509]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.09-00.05.38:355][509]MaterialEditorStats: Shader Count: 4
+[2024.01.09-00.05.39:316][581]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.09-00.05.39:316][581]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.09-00.05.39:316][581]MaterialEditorStats: Shader Count: 0
+[2024.01.09-00.05.39:476][584]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.01.09-00.05.39:476][584]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.01.09-00.05.39:476][584]MaterialEditorStats: Texture samplers: 2/16
+[2024.01.09-00.05.39:476][584]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.09-00.05.39:477][584]MaterialEditorStats: Shader Count: 4
+[2024.01.09-00.05.39:991][615]LogSlate: Window 'Color Picker' being destroyed
+[2024.01.09-00.05.40:046][615]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.09-00.05.40:046][615]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.09-00.05.40:046][615]MaterialEditorStats: Shader Count: 0
+[2024.01.09-00.05.40:113][617]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.01.09-00.05.40:113][617]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.01.09-00.05.40:113][617]MaterialEditorStats: Texture samplers: 2/16
+[2024.01.09-00.05.40:113][617]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.09-00.05.40:113][617]MaterialEditorStats: Shader Count: 4
+[2024.01.09-00.05.42:015][724]LogSlate: Window 'Color Picker' being destroyed
+[2024.01.09-00.05.43:753][854]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.09-00.05.43:753][854]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.09-00.05.43:753][854]MaterialEditorStats: Shader Count: 0
+[2024.01.09-00.05.44:131][868]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.01.09-00.05.44:131][868]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.09-00.05.44:131][868]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.09-00.05.44:131][868]MaterialEditorStats: Shader Count: 1
+[2024.01.09-00.05.44:249][874]MaterialEditorStats: Base pass shader: 189 instructions
+[2024.01.09-00.05.44:249][874]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.01.09-00.05.44:250][874]MaterialEditorStats: Texture samplers: 2/16
+[2024.01.09-00.05.44:250][874]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.09-00.05.44:250][874]MaterialEditorStats: Shader Count: 2
+[2024.01.09-00.05.54:565][890]MaterialEditorStats: Texture samplers: 0/16
+[2024.01.09-00.05.54:565][890]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.09-00.05.54:565][890]MaterialEditorStats: Shader Count: 0
+[2024.01.09-00.05.54:970][907]MaterialEditorStats: Base pass shader: 193 instructions
+[2024.01.09-00.05.54:970][907]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.01.09-00.05.54:971][907]MaterialEditorStats: Texture samplers: 2/16
+[2024.01.09-00.05.54:971][907]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.09-00.05.54:971][907]MaterialEditorStats: Shader Count: 4
+[2024.01.09-00.06.04:824][492]LogMaterialEditor: Saving and Compiling material NewMaterial
+[2024.01.09-00.06.04:951][492]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.01.09-00.06.05:343][492]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.01.09-00.06.05:366][492]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.09-00.06.06:316][492]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/NewMaterial" FILE="../../../../../../temp/cgt555_HaoWang/Assignment6/Content/Materials/NewMaterial.uasset" SILENT=true
+[2024.01.09-00.06.06:322][492]LogSavePackage: Moving output files for package: /Game/Materials/NewMaterial
+[2024.01.09-00.06.06:322][492]LogSavePackage: Moving '../../../../../../temp/cgt555_HaoWang/Assignment6/Saved/NewMaterial409C8DEA42260C40510F46904BD1517F.tmp' to '../../../../../../temp/cgt555_HaoWang/Assignment6/Content/Materials/NewMaterial.uasset'
+[2024.01.09-00.06.06:336][492]LogFileHelpers: InternalPromptForCheckoutAndSave took 969 ms (total: 1.69 sec)
+[2024.01.09-00.06.06:337][492]AssetCheck: New page: Asset Save: NewMaterial
+[2024.01.09-00.06.06:337][492]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Materials/NewMaterial.NewMaterial
+[2024.01.09-00.06.06:338][492]MaterialEditorStats: Base pass shader: 193 instructions
+[2024.01.09-00.06.06:338][492]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.01.09-00.06.06:338][492]MaterialEditorStats: MaxSampler: 241 instructions
+[2024.01.09-00.06.06:338][492]MaterialEditorStats: Texture samplers: 3/16
+[2024.01.09-00.06.06:338][492]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.01.09-00.06.06:338][492]MaterialEditorStats: Shader Count: 16
+[2024.01.09-00.06.14:646][113]LogViewport: Scene viewport resized to 2035x788, mode Windowed.
+[2024.01.09-00.06.23:963][879]LogContentBrowser: Deferred new asset file creation: NewMaterial_Inst
+[2024.01.09-00.06.23:988][879]LogContentBrowser: Creating deferred item: NewMaterial_Inst
+[2024.01.09-00.06.24:000][880]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial_Inst).
+[2024.01.09-00.06.24:593][931]LogContentBrowser: Attempting asset rename: NewMaterial_Inst -> NewMaterial_Inst
+[2024.01.09-00.06.24:594][931]LogContentBrowser: End creating deferred item NewMaterial_Inst
+[2024.01.09-00.06.25:047][954]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Materials/NewMaterial_Inst.NewMaterial_Inst
+[2024.01.09-00.06.25:049][954]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.09-00.06.25:049][954]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.09-00.06.25:283][954]LogViewport: Scene viewport resized to 1781x1218, mode Windowed.
+[2024.01.09-00.06.30:068][294]LogSlate: Window 'Color Picker' being destroyed
+[2024.01.09-00.06.31:769][418]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.09-00.06.31:887][418]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/NewMaterial_Inst" FILE="../../../../../../temp/cgt555_HaoWang/Assignment6/Content/Materials/NewMaterial_Inst.uasset" SILENT=true
+[2024.01.09-00.06.31:905][418]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.01.09-00.06.31:920][418]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.01.09-00.06.31:926][418]LogSavePackage: Moving output files for package: /Game/Materials/NewMaterial_Inst
+[2024.01.09-00.06.31:926][418]LogSavePackage: Moving '../../../../../../temp/cgt555_HaoWang/Assignment6/Saved/NewMaterial_InstEE1E11FC4AA05426A935279AA06DC98F.tmp' to '../../../../../../temp/cgt555_HaoWang/Assignment6/Content/Materials/NewMaterial_Inst.uasset'
+[2024.01.09-00.06.31:939][418]LogFileHelpers: InternalPromptForCheckoutAndSave took 168 ms (total: 1.86 sec)
+[2024.01.09-00.06.31:940][418]AssetCheck: New page: Asset Save: NewMaterial_Inst
+[2024.01.09-00.06.31:940][418]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Materials/NewMaterial_Inst.NewMaterial_Inst
+[2024.01.09-00.06.45:211][584]LogContentBrowser: Attempting asset rename: NewMaterial_Inst -> M_JLH
+[2024.01.09-00.06.45:271][584]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.09-00.06.45:339][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_JLH" FILE="../../../../../../temp/cgt555_HaoWang/Assignment6/Content/Materials/M_JLH.uasset" SILENT=true
+[2024.01.09-00.06.45:357][584]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.01.09-00.06.45:373][584]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.01.09-00.06.45:378][584]LogSavePackage: Moving output files for package: /Game/Materials/M_JLH
+[2024.01.09-00.06.45:378][584]LogSavePackage: Moving '../../../../../../temp/cgt555_HaoWang/Assignment6/Saved/M_JLH326889694E58FFBA263256B147625D27.tmp' to '../../../../../../temp/cgt555_HaoWang/Assignment6/Content/Materials/M_JLH.uasset'
+[2024.01.09-00.06.45:395][584]LogFileHelpers: InternalPromptForCheckoutAndSave took 122 ms (total: 1.98 sec)
+[2024.01.09-00.06.45:415][584]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2024.01.09-00.06.45:431][584]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.01.09-00.06.45:448][584]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.01.09-00.06.45:450][584]AssetCheck: New page: Asset Save: M_JLH
+[2024.01.09-00.06.45:450][584]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Materials/M_JLH.M_JLH
+[2024.01.09-00.06.48:410][816]LogContentBrowser: Deferred new asset file creation: M_JLH_Inst
+[2024.01.09-00.06.48:510][816]LogContentBrowser: Creating deferred item: M_JLH_Inst
+[2024.01.09-00.06.48:524][817]LogContentBrowser: Renaming the item being created (Deferred Item: M_JLH_Inst).
+[2024.01.09-00.06.49:700][912]LogContentBrowser: Attempting asset rename: M_JLH_Inst -> M_JLH_Inst
+[2024.01.09-00.06.49:701][912]LogContentBrowser: End creating deferred item M_JLH_Inst
+[2024.01.09-00.06.50:708][975]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.01.09-00.06.51:863][975]LogSlate: Window 'Delete Assets' being destroyed
+[2024.01.09-00.06.51:891][975]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.01.09-00.06.51:908][975]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.01.09-00.06.51:925][975]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.01.09-00.06.53:804][146]LogContentBrowser: Deferred new asset file creation: NewMaterial_Inst
+[2024.01.09-00.06.53:898][146]LogContentBrowser: Creating deferred item: NewMaterial_Inst
+[2024.01.09-00.06.53:909][147]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial_Inst).
+[2024.01.09-00.07.00:345][717]LogContentBrowser: Attempting asset rename: NewMaterial_Inst -> M_JLZ
+[2024.01.09-00.07.00:346][717]LogContentBrowser: End creating deferred item NewMaterial_Inst
+[2024.01.09-00.07.01:820][820]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Materials/M_JLZ.M_JLZ
+[2024.01.09-00.07.01:822][820]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.09-00.07.01:822][820]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.09-00.07.02:051][820]LogViewport: Scene viewport resized to 1781x1218, mode Windowed.
+[2024.01.09-00.07.05:617][ 72]LogSlate: Window 'Color Picker' being destroyed
+[2024.01.09-00.07.24:505][376]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2024.01.09-00.07.24:505][376]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.09-00.07.26:378][518]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.09-00.07.26:494][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_JLZ" FILE="../../../../../../temp/cgt555_HaoWang/Assignment6/Content/Materials/M_JLZ.uasset" SILENT=true
+[2024.01.09-00.07.26:513][518]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.01.09-00.07.26:530][518]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.01.09-00.07.26:536][518]LogSavePackage: Moving output files for package: /Game/Materials/M_JLZ
+[2024.01.09-00.07.26:536][518]LogSavePackage: Moving '../../../../../../temp/cgt555_HaoWang/Assignment6/Saved/M_JLZ4FD83F1A455E9D5584F25380242C4D8B.tmp' to '../../../../../../temp/cgt555_HaoWang/Assignment6/Content/Materials/M_JLZ.uasset'
+[2024.01.09-00.07.26:547][518]LogFileHelpers: InternalPromptForCheckoutAndSave took 169 ms (total: 2.15 sec)
+[2024.01.09-00.07.26:548][518]AssetCheck: New page: Asset Save: M_JLZ
+[2024.01.09-00.07.26:548][518]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Materials/M_JLZ.M_JLZ
+[2024.01.09-00.07.27:547][598]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2024.01.09-00.07.27:547][598]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.09-00.07.43:957][508]LogContentBrowser: Deferred new asset file creation: NewMaterial_Inst
+[2024.01.09-00.07.43:974][508]LogContentBrowser: Creating deferred item: NewMaterial_Inst
+[2024.01.09-00.07.43:985][509]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial_Inst).
+[2024.01.09-00.07.53:038][300]LogContentBrowser: Attempting asset rename: NewMaterial_Inst -> M_JLB
+[2024.01.09-00.07.53:039][300]LogContentBrowser: End creating deferred item NewMaterial_Inst
+[2024.01.09-00.07.55:227][470]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Materials/M_JLB.M_JLB
+[2024.01.09-00.07.55:229][470]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.09-00.07.55:229][470]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.09-00.07.55:446][470]LogViewport: Scene viewport resized to 1781x1218, mode Windowed.
+[2024.01.09-00.08.03:527][ 83]LogSlate: Window 'Color Picker' being destroyed
+[2024.01.09-00.08.05:141][197]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.09-00.08.05:294][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_JLB" FILE="../../../../../../temp/cgt555_HaoWang/Assignment6/Content/Materials/M_JLB.uasset" SILENT=true
+[2024.01.09-00.08.05:313][197]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.01.09-00.08.05:329][197]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.01.09-00.08.05:336][197]LogSavePackage: Moving output files for package: /Game/Materials/M_JLB
+[2024.01.09-00.08.05:336][197]LogSavePackage: Moving '../../../../../../temp/cgt555_HaoWang/Assignment6/Saved/M_JLBD2662BBA46396737B5C459A9537FE492.tmp' to '../../../../../../temp/cgt555_HaoWang/Assignment6/Content/Materials/M_JLB.uasset'
+[2024.01.09-00.08.05:348][197]LogFileHelpers: InternalPromptForCheckoutAndSave took 206 ms (total: 2.36 sec)
+[2024.01.09-00.08.05:348][197]AssetCheck: New page: Asset Save: M_JLB
+[2024.01.09-00.08.05:348][197]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Materials/M_JLB.M_JLB
+[2024.01.09-00.08.09:107][492]LogSlate: Window 'M_JLB' being destroyed
+[2024.01.09-00.08.09:116][492]LogSlate: Window 'M_JLB' being destroyed
+[2024.01.09-00.08.09:127][492]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.01.09-00.08.09:127][492]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.09-00.08.09:217][492]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2024.01.09-00.08.09:217][492]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.09-00.08.09:267][492]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2024.01.09-00.08.09:267][492]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.09-00.08.21:306][154]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Target/BP_Target.BP_Target
+[2024.01.09-00.08.21:306][154]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.09-00.08.21:306][154]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.09-00.08.31:219][808]LogViewport: Scene viewport resized to 1522x935, mode Windowed.
+[2024.01.09-00.08.57:852][537]BlueprintLog: New page: Compile BP_Target
+[2024.01.09-00.08.57:884][537]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.01.09-00.11.38:785][693]LogSlate: Window 'Blueprint Debugger' being destroyed
+[2024.01.09-00.11.38:792][693]LogSlate: Window 'Blueprint Debugger' being destroyed
+[2024.01.09-00.14.41:828][842]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.01.09-00.14.41:832][842]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.034
+[2024.01.09-00.14.41:833][842]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Target/BP_Target] ([2] browsable assets)...
+[2024.01.09-00.14.42:037][842]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Target/BP_Target.BP_Target]
+[2024.01.09-00.14.42:038][842]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Target/BP_Target]
+[2024.01.09-00.14.42:049][842]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Target/BP_Target_Auto2
+[2024.01.09-00.14.42:049][842]LogSavePackage: Moving '../../../../../../temp/cgt555_HaoWang/Assignment6/Saved/BP_Target_Auto2438A9E894EA59CF0A0FBBAB4A3CEF227.tmp' to '../../../../../../temp/cgt555_HaoWang/Assignment6/Saved/Autosaves/Game/Blueprints/Target/BP_Target_Auto2.uasset'
+[2024.01.09-00.14.42:054][842]LogFileHelpers: Auto-saving content packages took 0.221
+[2024.01.09-00.15.46:272][ 48]LogSlate: Took 0.000834 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2024.01.09-00.16.08:965][569]BlueprintLog: New page: Compile BP_Target
+[2024.01.09-00.16.08:991][569]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.01.09-00.21.18:154][608]BlueprintLog: New page: Compile BP_Target
+[2024.01.09-00.21.18:185][608]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.01.09-00.21.39:344][786]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2024.01.09-00.21.43:599][275]LogContentBrowser: Deferred new asset file creation: NewUserDefinedEnum
+[2024.01.09-00.21.43:605][275]LogContentBrowser: Creating deferred item: NewUserDefinedEnum
+[2024.01.09-00.21.43:617][276]LogContentBrowser: Renaming the item being created (Deferred Item: NewUserDefinedEnum).
+[2024.01.09-00.21.54:114][409]LogContentBrowser: Attempting asset rename: NewUserDefinedEnum -> NewUserDefinedEnum
+[2024.01.09-00.21.54:119][409]LogContentBrowser: End creating deferred item NewUserDefinedEnum
+[2024.01.09-00.22.05:503][383]LogContentBrowser: Attempting asset rename: NewUserDefinedEnum -> E_TargetBehavior
+[2024.01.09-00.22.05:534][383]LogMetaData: Removing '/Game/Blueprints/Target/E_TargetBehavior.E_TargetBehavior' ref from Metadata '/Game/Blueprints/Target/NewUserDefinedEnum.PackageMetaData'
+[2024.01.09-00.22.05:534][383]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.09-00.22.05:595][383]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Target/E_TargetBehavior" FILE="../../../../../../temp/cgt555_HaoWang/Assignment6/Content/Blueprints/Target/E_TargetBehavior.uasset" SILENT=true
+[2024.01.09-00.22.05:600][383]LogSavePackage: Moving output files for package: /Game/Blueprints/Target/E_TargetBehavior
+[2024.01.09-00.22.05:600][383]LogSavePackage: Moving '../../../../../../temp/cgt555_HaoWang/Assignment6/Saved/E_TargetBehavior221CDA8B42B5E1956F815C99DCAE607C.tmp' to '../../../../../../temp/cgt555_HaoWang/Assignment6/Content/Blueprints/Target/E_TargetBehavior.uasset'
+[2024.01.09-00.22.05:616][383]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 2.44 sec)
+[2024.01.09-00.22.05:647][383]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.01.09-00.22.05:666][383]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.01.09-00.22.05:682][383]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.01.09-00.22.05:683][383]AssetCheck: New page: Asset Save: E_TargetBehavior
+[2024.01.09-00.22.05:683][383]LogContentValidation: Display: Validating /Script/Engine.UserDefinedEnum /Game/Blueprints/Target/E_TargetBehavior.E_TargetBehavior
+[2024.01.09-00.22.18:403][580]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedEnum /Game/Blueprints/Target/E_TargetBehavior.E_TargetBehavior
+[2024.01.09-00.22.27:316][271]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Engine/Transient does not exist, will not scan.
+[2024.01.09-00.24.09:667][953]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.09-00.24.09:716][953]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Target/E_TargetBehavior" FILE="../../../../../../temp/cgt555_HaoWang/Assignment6/Content/Blueprints/Target/E_TargetBehavior.uasset" SILENT=true
+[2024.01.09-00.24.09:721][953]LogSavePackage: Moving output files for package: /Game/Blueprints/Target/E_TargetBehavior
+[2024.01.09-00.24.09:725][953]LogSavePackage: Moving '../../../../../../temp/cgt555_HaoWang/Assignment6/Saved/E_TargetBehavior94BCDCCD41293AF45AB2AF988D43B7D5.tmp' to '../../../../../../temp/cgt555_HaoWang/Assignment6/Content/Blueprints/Target/E_TargetBehavior.uasset'
+[2024.01.09-00.24.09:740][953]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 2.51 sec)
+[2024.01.09-00.24.09:741][953]AssetCheck: New page: Asset Save: E_TargetBehavior
+[2024.01.09-00.24.09:741][953]LogContentValidation: Display: Validating /Script/Engine.UserDefinedEnum /Game/Blueprints/Target/E_TargetBehavior.E_TargetBehavior
+[2024.01.09-00.26.08:057][820]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.01.09-00.26.08:059][820]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.024
+[2024.01.09-00.26.08:059][820]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Target/BP_Target] ([2] browsable assets)...
+[2024.01.09-00.26.08:116][820]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Target/BP_Target.BP_Target]
+[2024.01.09-00.26.08:116][820]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Target/BP_Target]
+[2024.01.09-00.26.08:126][820]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Target/BP_Target_Auto3
+[2024.01.09-00.26.08:126][820]LogSavePackage: Moving '../../../../../../temp/cgt555_HaoWang/Assignment6/Saved/BP_Target_Auto361CC4D2E400D5C11C7CA42985F63D13B.tmp' to '../../../../../../temp/cgt555_HaoWang/Assignment6/Saved/Autosaves/Game/Blueprints/Target/BP_Target_Auto3.uasset'
+[2024.01.09-00.26.08:131][820]LogFileHelpers: Auto-saving content packages took 0.072
+[2024.01.09-00.27.39:909][204]BlueprintLog: New page: Compile BP_Target
+[2024.01.09-00.27.39:939][204]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.01.09-00.27.51:381][959]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Target/BP_Target.BP_Target_C
+[2024.01.09-00.27.51:381][959]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Target/BP_Target.BP_Target_C
+[2024.01.09-00.27.51:384][959]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Target/BP_Target.BP_Target as actor: BP_Target_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Target_C_0
+[2024.01.09-00.27.51:387][959]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Target/BP_Target.BP_Target as actor: BP_Target_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Target_C_0
+[2024.01.09-00.27.51:392][959]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.01.09-00.27.52:021][ 15]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Target/BP_Target.BP_Target_C
+[2024.01.09-00.27.52:021][ 15]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Target/BP_Target.BP_Target_C
+[2024.01.09-00.27.52:027][ 15]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Target/BP_Target.BP_Target as actor: BP_Target_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Target_C_UAID_309C23BB3E06ADCD01_1873327087
+[2024.01.09-00.27.52:029][ 15]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Target/BP_Target.BP_Target as actor: BP_Target_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Target_C_UAID_309C23BB3E06ADCD01_1873327087
+[2024.01.09-00.28.12:203][662]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.01.09-00.28.46:632][312]BlueprintLog: New page: Compile BP_Target
+[2024.01.09-00.28.46:680][312]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.01.09-00.36.17:275][840]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.01.09-00.36.17:287][840]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/DE/VY1V3F4JEYQY26XLJ8LY5Z_Auto4
+[2024.01.09-00.36.17:287][840]LogSavePackage: Moving '../../../../../../temp/cgt555_HaoWang/Assignment6/Saved/VY1V3F4JEYQY26XLJ8LY5Z_Auto462D1D9064C0760B061A9EEBDACC97FDF.tmp' to '../../../../../../temp/cgt555_HaoWang/Assignment6/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/DE/VY1V3F4JEYQY26XLJ8LY5Z_Auto4.uasset'
+[2024.01.09-00.36.17:290][840]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.041
+[2024.01.09-00.36.17:290][840]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.041
+[2024.01.09-00.36.17:290][840]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Target/BP_Target] ([2] browsable assets)...
+[2024.01.09-00.36.17:347][840]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Target/BP_Target.BP_Target]
+[2024.01.09-00.36.17:347][840]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Target/BP_Target]
+[2024.01.09-00.36.17:360][840]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Target/BP_Target_Auto4
+[2024.01.09-00.36.17:360][840]LogSavePackage: Moving '../../../../../../temp/cgt555_HaoWang/Assignment6/Saved/BP_Target_Auto42BFFCDDF4B30483AB4A64E8457597B64.tmp' to '../../../../../../temp/cgt555_HaoWang/Assignment6/Saved/Autosaves/Game/Blueprints/Target/BP_Target_Auto4.uasset'
+[2024.01.09-00.36.17:364][840]LogFileHelpers: Auto-saving content packages took 0.075
+[2024.01.09-00.37.56:771][962]LogDerivedDataCache: C:/Users/wang5329/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.039 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1083 files in 1699 folders with total size 21 MiB.
+[2024.01.09-00.38.18:312][275]LogCurveEditor: Warning: A key on CurveFloat_1 could not be moved because there was already a key at that time.
+[2024.01.09-00.38.27:522][970]LogCurveEditor: Warning: A key on CurveFloat_1 could not be moved because there was already a key at that time.
+[2024.01.09-00.38.42:639][136]LogCurveEditor: Warning: A key on CurveFloat_1 could not be moved because there was already a key at that time.
+[2024.01.09-00.39.37:427][617]BlueprintLog: New page: Compile BP_Target
+[2024.01.09-00.39.37:472][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.01.09-00.43.14:215][640]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.09-00.43.14:323][640]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Target/BP_Target" FILE="../../../../../../temp/cgt555_HaoWang/Assignment6/Content/Blueprints/Target/BP_Target.uasset" SILENT=true
+[2024.01.09-00.43.14:335][640]LogSavePackage: Moving output files for package: /Game/Blueprints/Target/BP_Target
+[2024.01.09-00.43.14:335][640]LogSavePackage: Moving '../../../../../../temp/cgt555_HaoWang/Assignment6/Saved/BP_TargetEFBBB3934DD57F56597717B06E4C1578.tmp' to '../../../../../../temp/cgt555_HaoWang/Assignment6/Content/Blueprints/Target/BP_Target.uasset'
+[2024.01.09-00.43.14:350][640]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 2.65 sec)
+[2024.01.09-00.43.14:351][640]AssetCheck: New page: Asset Save: BP_Target
+[2024.01.09-00.43.14:352][640]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Target/BP_Target.BP_Target
